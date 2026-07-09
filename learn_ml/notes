@@ -20,4 +20,16 @@ Random Forest Classification
 
 5. ensemble models have * Decision Tree Classification * Random Forest Classification
 
+Ensemble models combine multiple individual machine learning models (base learners) to produce more accurate, robust, and stable predictions than any single model could achieve alone. They are widely used in classification and regression tasks to mitigate overfitting and reduce bias and variance.
+
+The Three Main Techniques
+
+1. Bagging (Bootstrap Aggregating)Bagging reduces variance by training multiple base models (like Decision Trees) independently in parallel on random subsets of the training data. The final output is determined by averaging the results (for regression) or by majority voting (for classification).Example: Random Forests
+
+2. BoostingBoosting reduces bias by training base models sequentially. Each new model focuses on correcting the errors and misclassifications made by the previous model. The final prediction is a weighted sum or vote of all the models.Examples: AdaBoost, Gradient Boosting Machines (GBM), and [XGBoost](0.5.1, 0.5.11).
+
+3. Stacking: Stacking combines predictions from several distinct base models (such as neural networks, support vector machines, and linear regression) and uses a meta-learner (or meta-model) to determine how to weight each prediction optimally. The meta-model takes the outputs of the base models as its input features.
+
+Advantages & ConsiderationsPros: Higher predictive accuracy, improved generalization to unseen data, and robustness against noise and outliers.Cons: Higher computational costs, longer training and inference times, and reduced model interpretability.
+
 
