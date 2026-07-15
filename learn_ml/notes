@@ -86,6 +86,14 @@ The hyperparameters are the parameters that are not learnt and that are fixed va
 Now congratulations for having completed Part 3, and let's move on the next part of the journey:
 
 
-8. 
+8. Welcome to Part 5 - Association Rule Learning!
+People who bought also bought ... That is what Association Rule Learning will help us figure out!
+In this part, you will understand and learn how to implement the following Association Rule Learning models:
+* Apriori
+* Eclat
+
+
+9. 
+
 
 
